@@ -1,0 +1,74 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\Sergey Zats\\Desktop\\Prog\\ProgLabs\\3sem\\OP_LAB_1\\TestProject1\\TestProject1.csproj",
+    "projectName": "TestProject1",
+    "projectPath": "C:\\Users\\Sergey Zats\\Desktop\\Prog\\ProgLabs\\3sem\\OP_LAB_1\\TestProject1\\TestProject1.csproj",
+    "outputPath": "C:\\Users\\Sergey Zats\\Desktop\\Prog\\ProgLabs\\3sem\\OP_LAB_1\\TestProject1\\obj\\",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp3.0"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "projectReferences": {
+          "C:\\Users\\Sergey Zats\\Desktop\\Prog\\ProgLabs\\3sem\\OP_LAB_1\\OP_lab\\OP_lab.csproj": {
+            "projectPath": "C:\\Users\\Sergey Zats\\Desktop\\Prog\\ProgLabs\\3sem\\OP_LAB_1\\OP_lab\\OP_lab.csproj"
+          },
+          "C:\\Users\\Sergey Zats\\Desktop\\Prog\\ProgLabs\\3sem\\OP_LAB_1\\OP_LAB_1\\OP_LAB_1.csproj": {
+            "projectPath": "C:\\Users\\Sergey Zats\\Desktop\\Prog\\ProgLabs\\3sem\\OP_LAB_1\\OP_LAB_1\\OP_LAB_1.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.0": {
+      "dependencies": {
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[16.3.0, )"
+        },
+        "NUnit3TestAdapter": {
+          "target": "Package",
+          "version": "[3.15.1, )"
+        },
+        "nunit": {
+          "target": "Package",
+          "version": "[3.12.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "downloadDependencies": [
+        {
+          "name": "Microsoft.AspNetCore.App.Ref",
+          "version": "[3.0.1, 3.0.1]"
+        }
+      ],
+      "frameworkReferences": {
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+    }
+  }
+}

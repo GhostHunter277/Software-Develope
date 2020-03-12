@@ -1,0 +1,6 @@
+[submodule "submodules_folder/Windows_OS"]
+	path = submodules_folder/Windows_OS
+	url = https://github.com/bernschrodr/Windows-Administration
+[submodule "submodules_folder/OS_Bash"]
+	path = submodules_folder/OS_Bash
+	url = https://github.com/bernschrodr/OS_bash

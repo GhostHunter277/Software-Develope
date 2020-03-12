@@ -9,6 +9,7 @@ namespace OP_LAB_1
     {
         public string colour;
         public string Alpha;
+        
 
 
     }

@@ -104,7 +104,39 @@ namespace OP_LAB_1
             Console.WriteLine("Final"+Area());
         }
         
-        
+public static void ReplaceName(string[] names, string name, string newName)
+{
+    for (int i=0; i < names.Length; i++)
+    {
+        if (names[i] == name)
+            names[i] = newName;
+    }
+}
+
+public static int GetMax(int[] array)
+{
+    int max = array[0];
+    for (int i = 1; i < array.Length; i++)
+    {
+        if (array[i] > max)
+            max = array[i];
+    }
+    return max;
+}
+
+public static double Factorial(int n) {
+    double res = 1;
+    for(int i = 2; i <= n; i++) {
+        res *= i;
+    }
+    return res;
+}
+
+public void SetAlpha2Max()
+{
+    z.Alpha = "100%";
+}
+
         
         
         

@@ -103,15 +103,6 @@ namespace OP_LAB_1
         {
             Console.WriteLine("Final"+Area());
         }
-
-public static void ReplaceName(string[] names, string name, string newName)
-{
-    for (int i=0; i < names.Length; i++)
-    {
-        if (names[i] == name)
-            names[i] = newName;
-    }
-}
         
         
         

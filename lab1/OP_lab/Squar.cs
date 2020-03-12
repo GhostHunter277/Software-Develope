@@ -131,6 +131,12 @@ public static double Factorial(int n) {
     }
     return res;
 }
+
+public void SetAlpha2Max()
+{
+    z.Alpha = "100%";
+}
+
         
         
         

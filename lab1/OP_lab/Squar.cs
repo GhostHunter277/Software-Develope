@@ -111,7 +111,18 @@ public static void ReplaceName(string[] names, string name, string newName)
         if (names[i] == name)
             names[i] = newName;
     }
-}       
+}
+
+public static int GetMax(int[] array)
+{
+    int max = array[0];
+    for (int i = 1; i < array.Length; i++)
+    {
+        if (array[i] > max)
+            max = array[i];
+    }
+    return max;
+}
         
         
         
